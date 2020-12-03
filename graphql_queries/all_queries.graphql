@@ -1,0 +1,44 @@
+{
+  allStatistics {
+    edges {
+      node {
+        code
+        country
+        flag
+        coordinates
+        confirmed
+        deaths
+        recovered
+        states {
+          edges {
+            node {
+              name
+              address
+              latitude
+              longitude
+              confirmed
+              deaths
+              recovered
+            }
+          }
+        }
+      }
+    }
+  },
+  allTotalCases {
+    edges {
+      node {
+        totalConfirmed
+        totalDeaths
+        totalRecovered
+      }
+    }
+  },
+  allSubscriber {
+    edges {
+      node {
+        email
+      }
+    }
+  }
+}

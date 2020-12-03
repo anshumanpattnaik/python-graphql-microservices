@@ -1,0 +1,26 @@
+mutation {
+  fetchByCountryName(country: "India") {
+    statistics {
+      code
+      country
+      flag
+      coordinates
+      confirmed
+      deaths
+      recovered
+      states {
+        edges {
+          node {
+            name
+            address
+            latitude
+            longitude
+            confirmed
+            deaths
+            recovered
+          }
+        }
+      }
+    }
+  }
+}
