@@ -7,7 +7,7 @@ from config import Config
 total_covid_cases_bp = Blueprint('total_covid_cases', __name__)
 
 
-@total_covid_cases_bp.route(Config.FETACH_TOTAL_COVID_CASES, methods=['GET'])
+@total_covid_cases_bp.route(Config.FETCH_TOTAL_COVID_CASES, methods=['GET'])
 def fetch_total_covid_cases():
     total_cases = [json.loads(res.to_json()) for res in TotalCases.objects]
     return make_response(jsonify(total_cases), 200)

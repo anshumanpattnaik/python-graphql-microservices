@@ -11,7 +11,7 @@ class Config:
 
     # Total Covid cases Endpoint
     ADD_TOTAL_COVID_CASES = API_PATH+API_VERSION+'/add_total_cases'
-    FETACH_TOTAL_COVID_CASES = API_PATH+API_VERSION+'/fetch_total_cases'
+    FETCH_TOTAL_COVID_CASES = API_PATH+API_VERSION+'/fetch_total_cases'
 
     # Statistics Endpoint
     ADD_STATISTICS = API_PATH+API_VERSION+'/add_statistics'
