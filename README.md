@@ -22,15 +22,15 @@ python3 run.py
 `````````````````````````````````````````````````````````````````````````
 
 ### COVID-19 Datasets
-Under `covid19_dummy_data/` folder you will find the statistics data file, which you can use while adding data using `http://127.0.0.1:5000/api/v1/add_statistics` endpoint.
+Under `covid19_dummy_data/` folder you will find the statistics [data.json](https://github.com/anshumanpattnaik/python-graphql-microservices/blob/main/covid19_dummy_data/data.json) file, which you can use while adding data using `http://127.0.0.1:5000/api/v1/add_statistics` endpoint.
 
-## GraphQL Query/Mutation
+## GraphQL (All Queries/Mutation)
 After the installation and importing the data into mongodb database, you can open `http://127.0.0.1:5000/api/v1/graphql` to view in the browser.
 
-To refer the queries you can follow `graphql_quries/` folder for all_queries.graphql and mutation_query.graphql which you can use to analyze the data.
+To refer the queries you can follow `graphql_quries/` folder for [all_queries.graphql](https://github.com/anshumanpattnaik/python-graphql-microservices/blob/main/graphql_queries/all_queries.graphql) and [mutation_query.graphql](https://github.com/anshumanpattnaik/python-graphql-microservices/blob/main/graphql_queries/mutation_query.graphql) which you can use to analyze the data.
 
-### All Query
-Using all query it will populate three different sets of data.
+### All Queries
+Using all queries it will populate three different sets of data.
 
 1. Statistics of all counties - (allStatistics)
 2. Total Cases around the world - (allTotalCases)
