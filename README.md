@@ -21,7 +21,7 @@ source venv/bin/activate
 python3 run.py
 `````````````````````````````````````````````````````````````````````````
 
-### COVID-19 Datasets
+## COVID-19 Datasets
 Under `covid19_dummy_data/` folder you will find the statistics [data.json](https://github.com/anshumanpattnaik/python-graphql-microservices/blob/main/covid19_dummy_data/data.json) file, which you can use while adding data using `http://127.0.0.1:5000/api/v1/add_statistics` endpoint.
 
 ## GraphQL (All Queries/Mutation)
